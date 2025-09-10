@@ -9,7 +9,12 @@ const Clock = setInterval(function time (){
     let minuto = dateToday.getMinutes();
     let segundo = dateToday.getSeconds();
 
+    if(hora<10) hora = '0' + hora
+    if(minuto<10) hora = '0' + minuto
+    if(segundo<10) hora = '0' + segundo
+    
     horas.textContent = hora;
     minutos.textContent = minuto;
     segundos.textContent = segundo;
 })
+
