@@ -12,7 +12,7 @@
  
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #38184C,#1F0802);
+    background: linear-gradient(120deg, #38184C,lch(74.06% 34.01 341.14));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 5);
 }
 
-.relogio div {
+.Clock div {
     height: 170px;
     width: 150px;
     display: flex;
@@ -43,11 +43,11 @@ body {
     letter-spacing: 3px;
     }
 
-.relogio span.tempo {
+.Clock span.tempo {
     font-weight: bolder;
     font-size: 60px;
 }
 
-.relogio span.tempo {
+.Clock span.tempo {
     font-size: 10px;
 }
